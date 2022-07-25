@@ -47,6 +47,30 @@ body {
 
 }
 
+.navigation__actions--container {
+    color: $medium__gray;
+    width: 50%;
+    // align-self: flex-end;
+    // border: .1em solid $medium__gray;
+    display: flex;
+    justify-content: end;
+
+    .login__action--button {
+        border: none;
+        background: none;
+        margin: 0 10%;
+    }
+
+    .signup__action--button {
+        border: .1em solid $medium__gray;
+        background: none;
+        padding: 1% 5%;
+        border-radius: 15px;
+        font-size: .8em;
+        height: 60%;
+    }
+}
+
 .intro__section--container {
     display: flex;
     height: 80vh;

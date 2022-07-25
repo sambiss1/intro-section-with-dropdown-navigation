@@ -39,6 +39,26 @@ body {
   margin: 0 5%;
 }
 
+.navigation__actions--container {
+  color: hsl(0deg, 0%, 41%);
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.navigation__actions--container .login__action--button {
+  border: none;
+  background: none;
+  margin: 0 10%;
+}
+.navigation__actions--container .signup__action--button {
+  border: 0.1em solid hsl(0deg, 0%, 41%);
+  background: none;
+  padding: 1% 5%;
+  border-radius: 15px;
+  font-size: 0.8em;
+  height: 60%;
+}
+
 .intro__section--container {
   display: flex;
   height: 80vh;
