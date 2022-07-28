@@ -26,17 +26,59 @@ body {
   justify-content: space-between;
   width: 100%;
   color: hsl(0deg, 0%, 41%);
+  margin: 0 5%;
 }
 
 .navbar {
   display: flex;
+  font-size: 14px;
 }
 .navbar .main__navigation {
   display: flex;
   list-style: none;
+  justify-content: space-between;
 }
 .navbar .main__navigation li {
-  margin: 0 5%;
+  margin: 0;
+}
+
+.dropdown__menu--features, .dropdown__menu--company {
+  width: 150px;
+  list-style: none;
+  background: white;
+  padding: 10% 0;
+  border-radius: 15px;
+  position: relative;
+  z-index: 12;
+  left: 0;
+  top: 10%;
+  box-shadow: 3px 3px 3px 3px #000000;
+}
+
+.dropdown__menu--company {
+  width: 150px;
+  left: 0;
+}
+
+.features__menu--item {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 10%;
+  position: relative;
+  width: 100%;
+}
+.features__menu--item .features__menu__--iconcontainer {
+  width: 15px;
+  height: 15px;
+  left: 0%;
+}
+.features__menu--item .features__menu__--iconcontainer img {
+  width: 100%;
+  height: 100%;
+}
+.features__menu--item .features__menu--text {
+  border: 0.1em solid hsl(0deg, 0%, 41%);
+  width: 60%;
 }
 
 .navigation__actions--container {
